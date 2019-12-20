@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT"
+	name="AutomationPractice for Hello Fresh" parallel="classes"
+	thread-count="3">
+
+	<listeners>
+		<listener
+			class-name="com.tests.ExtentReportListener.ExtentReporterNG" />
+			
+	</listeners>
+	<test name="Sign Up Test">
+		<classes>
+			<class name="com.testcases.SignUpTest" />
+		</classes>
+	</test>
+
+	<test name="Login Test">
+		<classes>
+			<class name="com.testcases.LoginTest" />
+
+		</classes>
+	</test>
+
+	<test name="Order Test">
+		<classes>
+			<class name="com.testcases.WomenCheckoutOrderTest" />
+
+		</classes>
+	</test>
+</suite>

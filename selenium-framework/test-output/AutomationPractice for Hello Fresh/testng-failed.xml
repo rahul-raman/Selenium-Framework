@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [AutomationPractice for Hello Fresh]" parallel="classes">
+  <listeners>
+    <listener class-name="com.tests.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="3" name="Order Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.testcases.WomenCheckoutOrderTest">
+        <methods>
+          <include name="orderAProduct" invocation-numbers="0"/>
+          <include name="setupApplication"/>
+          <include name="closeApplication"/>
+          <include name="beforeMethod"/>
+          <include name="takeScreenShotOnFailure"/>
+        </methods>
+      </class> <!-- com.testcases.WomenCheckoutOrderTest -->
+    </classes>
+  </test> <!-- Order Test(failed) -->
+</suite> <!-- Failed suite [AutomationPractice for Hello Fresh] -->

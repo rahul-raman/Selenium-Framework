@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-AutomationPractice_for_Hello_Fresh">
+              <span class="suite-name border-passed">AutomationPractice for Hello Fresh</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-AutomationPractice_for_Hello_Fresh">
+                    <span>C:\hello\SeleniumFramework\selenium-framework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-AutomationPractice_for_Hello_Fresh">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-AutomationPractice_for_Hello_Fresh">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-AutomationPractice_for_Hello_Fresh">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-AutomationPractice_for_Hello_Fresh">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-AutomationPractice_for_Hello_Fresh">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-AutomationPractice_for_Hello_Fresh">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AutomationPractice_for_Hello_Fresh" class="hide-methods passed suite-AutomationPractice_for_Hello_Fresh"> (hide)</a> <!-- hide-methods passed suite-AutomationPractice_for_Hello_Fresh -->
+                      <a href="#" panel-name="suite-AutomationPractice_for_Hello_Fresh" class="show-methods passed suite-AutomationPractice_for_Hello_Fresh"> (show)</a> <!-- show-methods passed suite-AutomationPractice_for_Hello_Fresh -->
+                    </span>
+                    <div class="method-list-content passed suite-AutomationPractice_for_Hello_Fresh">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationPractice_for_Hello_Fresh" title="com.testcases.LoginTest" hash-for-method="LoginExistingUser(org.testng.TestRunner@58b04406)">LoginExistingUser(org.testng.TestRunner@58b04406)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationPractice_for_Hello_Fresh" title="com.testcases.SignUpTest" hash-for-method="SignUpaNewUser(org.testng.TestRunner@4e916306)">SignUpaNewUser(org.testng.TestRunner@4e916306)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationPractice_for_Hello_Fresh" title="com.testcases.WomenCheckoutOrderTest" hash-for-method="orderAProduct(org.testng.TestRunner@59d46f6b)">orderAProduct(org.testng.TestRunner@59d46f6b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AutomationPractice_for_Hello_Fresh -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AutomationPractice_for_Hello_Fresh" class="panel AutomationPractice_for_Hello_Fresh">
+          <div class="suite-AutomationPractice_for_Hello_Fresh-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcases.SignUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpaNewUser(org.testng.TestRunner@4e916306)">
+                  </a> <!-- SignUpaNewUser(org.testng.TestRunner@4e916306) -->
+                  <span class="method-name">SignUpaNewUser</span>
+                  <span class="parameters">(org.testng.TestRunner@4e916306)</span>
+                  <em>
+(To sign up a New User in the system)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationPractice_for_Hello_Fresh-class-passed -->
+          <div class="suite-AutomationPractice_for_Hello_Fresh-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcases.WomenCheckoutOrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="orderAProduct(org.testng.TestRunner@59d46f6b)">
+                  </a> <!-- orderAProduct(org.testng.TestRunner@59d46f6b) -->
+                  <span class="method-name">orderAProduct</span>
+                  <span class="parameters">(org.testng.TestRunner@59d46f6b)</span>
+                  <em>
+(To order a women dress)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationPractice_for_Hello_Fresh-class-passed -->
+          <div class="suite-AutomationPractice_for_Hello_Fresh-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginExistingUser(org.testng.TestRunner@58b04406)">
+                  </a> <!-- LoginExistingUser(org.testng.TestRunner@58b04406) -->
+                  <span class="method-name">LoginExistingUser</span>
+                  <span class="parameters">(org.testng.TestRunner@58b04406)</span>
+                  <em>
+(To Login a existing User in the system)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationPractice_for_Hello_Fresh-class-passed -->
+        </div> <!-- panel AutomationPractice_for_Hello_Fresh -->
+        <div panel-name="test-xml-AutomationPractice_for_Hello_Fresh" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\hello\SeleniumFramework\selenium-framework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;AutomationPractice for Hello Fresh&quot; parallel=&quot;classes&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.tests.ExtentReportListener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Sign Up Test&quot; parallel=&quot;classes&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.SignUpTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sign Up Test --&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Login Test&quot; parallel=&quot;classes&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Order Test&quot; parallel=&quot;classes&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.WomenCheckoutOrderTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Order Test --&gt;
+&lt;/suite&gt; &lt;!-- AutomationPractice for Hello Fresh --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AutomationPractice_for_Hello_Fresh" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AutomationPractice for Hello Fresh</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Sign Up Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Order Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AutomationPractice_for_Hello_Fresh" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AutomationPractice for Hello Fresh</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AutomationPractice_for_Hello_Fresh" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AutomationPractice for Hello Fresh</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AutomationPractice_for_Hello_Fresh');
+function tableData_AutomationPractice_for_Hello_Fresh() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'orderAProduct')
+data.setCell(0, 2, 'com.testcases.WomenCheckoutOrderTest')
+data.setCell(0, 3, 14386);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SignUpaNewUser')
+data.setCell(1, 2, 'com.testcases.SignUpTest')
+data.setCell(1, 3, 7624);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginExistingUser')
+data.setCell(2, 2, 'com.testcases.LoginTest')
+data.setCell(2, 3, 3985);
+window.suiteTableData['AutomationPractice_for_Hello_Fresh']= { tableData: data, tableDiv: 'times-div-AutomationPractice_for_Hello_Fresh'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
+              <div id="times-div-AutomationPractice_for_Hello_Fresh">
+              </div> <!-- times-div-AutomationPractice_for_Hello_Fresh -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AutomationPractice_for_Hello_Fresh" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AutomationPractice for Hello Fresh</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AutomationPractice_for_Hello_Fresh" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AutomationPractice_for_Hello_Fresh" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupApplication</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.testcases.SignUpTest.SignUpaNewUser(org.testng.ITestContext) throws java.lang.Except...)</span>
+                <span class="method-start">9503 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SignUpaNewUser(org.testng.TestRunner@4e916306)</span>
+                <span class="method-start">9504 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=SignUpaNewUser status=SUCCESS method=SignUpTest.SignUpaNewUser(org.testng.ITestCont...)</span>
+                <span class="method-start">17130 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApplication</span>
+                <span class="method-start">17131 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupApplication</span>
+                <span class="method-start">17861 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.testcases.LoginTest.LoginExistingUser(org.testng.ITestContext) throws java.lang.Exce...)</span>
+                <span class="method-start">26270 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginExistingUser(org.testng.TestRunner@58b04406)</span>
+                <span class="method-start">26271 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=LoginExistingUser status=SUCCESS method=LoginTest.LoginExistingUser(org.testng.ITes...)</span>
+                <span class="method-start">30258 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApplication</span>
+                <span class="method-start">30258 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.WomenCheckoutOrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupApplication</span>
+                <span class="method-start">30980 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.testcases.WomenCheckoutOrderTest.orderAProduct(org.testng.ITestContext) throws java....)</span>
+                <span class="method-start">39428 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">orderAProduct(org.testng.TestRunner@59d46f6b)</span>
+                <span class="method-start">43318 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=orderAProduct status=SUCCESS method=WomenCheckoutOrderTest.orderAProduct(org.testng...)</span>
+                <span class="method-start">57705 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApplication</span>
+                <span class="method-start">57705 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
