@@ -1,4 +1,4 @@
-# Hello Fresh Selenium Framework
+# Selenium Framework
 A framework to run and validate Selenium UI Tests.
 ## Components
 This is a Hybrid Framework which is a combination of **Data Driven Development** and **Test Driven Development**. And it is written on the concepts of **BDD**.
